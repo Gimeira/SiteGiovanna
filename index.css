@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #a00579;
+    color: #fff;       
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+.fundo {
+background-color: #e983cf;
+}
+
+.quemsomos {
+    text-align: center;
+    background-color: #a00579;
+}
+
+.colunatexto {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.blocopt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+p{
+    font-size: 25px;
+}
+
+.image {
+    flex: 0 0 18%;
+    padding: 10px;
+    text-align: center;
+}
+.imgaa{
+    width: 500px;
+}
+.imgpt {
+    max-width: 65%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #e983cf;
+}
+
+.image-caption{
+    margin-top: 10px;
+}
